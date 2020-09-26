@@ -45,8 +45,8 @@
         },
       },
     mounted() {
-        this.axios.get("user").then(res => {
-          console.log(res.data)
+        this.axios.post("user").then(res => {
+          console.log("sdiufijfjkj")
         })
       this.testPromise().then(res => {
         console.log(res)

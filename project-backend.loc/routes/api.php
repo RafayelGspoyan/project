@@ -30,3 +30,16 @@ Route::get("/user",function (Request $request){
        ]
    ]) ;
 });
+
+Route::post("/user",function (Request $request){
+    return response()->json([
+        "success" => true,
+        "data"=> [
+            "info" => "info",
+            "info2" => "info",
+            "info3" => "info",
+            "info4" => "info",
+            "info5" => "info"
+        ]
+    ]) ;
+});
