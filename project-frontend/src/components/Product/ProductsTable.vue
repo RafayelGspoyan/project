@@ -1,79 +1,51 @@
 <template>
-  <div>
-    <b-container>
-      <b-row cols="8" class="mx-auto">
-        <input type="text" placeholder="Search" v-model="search_input" class="form-control-lg">
-          <b-table :fields="table_params.field" :items="product"  striped bordered>
-              <template v-slot:cell(action)="data">
-                <button @click="removeProduct(data.item.id)" class="btn btn-danger">Delete</button>
-              </template>
-          </b-table>
-      </b-row>
-    </b-container>
-  </div>
+  <b-table  :items="products"
+           :fields="table_params.fields"
+           striped
+           borderless
+  >
+    <template class="d-flex" v-slot:cell(actions)="data,index">
+      <router-link :to="{name: 'ShowPage',params: {id: products[data.index].id}}">
+      <button  class="btn btn-info" @click="showProduct(products[data.index].id )">Show</button>
+      </router-link>
+      <button class="btn btn-warning">Edit</button>
+      <button class="btn btn-danger" @click="removeProduct(products[data.index].id)">Delete</button>
+    </template>
+  </b-table>
 </template>
-
-
+​
 <script>
-
   export default {
-
-      data(){
-        return{
-          search_input: "",
-          product:[
-            {
-              id: 15,
-              name: "PR 1",
-              description : "Some Description",
-              price: 15,
-            },
-            {
-              id: 7,
-              name: "PR 2",
-              description : "Some Description",
-              price: 68,
-            },
-            {
-              id: 14,
-              name: "PR 3",
-              description : "Some Description",
-              price: 95,
-            }
-          ],
-        table_params:{
-            field:[
-              {key: "id"},
-              {key: "name"},
-              {key: "description"},
-              {key: "price",formatter: (item,key,row) => {
-                    return `${item}.00$`
-                  }
-                },
-              {key: "action"},
-            ]
-        },
-
-
-        }
-      },
-    methods:{
-      removeProduct(id){
-        if (!confirm("Are you Sure to remove this object product?")) return ;
-        this.product.splice(this.product.indexOf(id.item),1);
-      },
+    props: {
+      products: {type: Array}
     },
-    watch:{
-       search_input(NewValue){
-            this.product = this.product.filter(product => {
-              return  product.name.includes(this.search_input)
-            })
-       }
+    data() {
+      return {
+        table_params: {
+          fields: [
+            {key: 'id'},
+            {key: 'name'},
+            {key: 'description', label: 'DESC'},
+            {key: 'price', formatter: (item, key, row) => {
+                return `${item}.00$`
+              }
+            },
+            {key: 'actions'}
+
+          ]
+        }
+      }
+    },
+    methods: {
+      removeProduct(id) {
+        if(!confirm('Are you sure to remove this product?')) return;
+        this.$parent.removeProduct(id);
+      },
+      showProduct(id) {
+        this.$parent.showProduct(id);
+      }
     }
   }
 </script>
+​
 
-
-<style scoped>
-
-</style>

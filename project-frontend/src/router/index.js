@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import ProductsTable from "../components/Product/ProductsTable";
-import circle from "../components/test/circle";
+import MainPage from "../components/Product/MainPage";
+import ShowProduct from "../components/Product/ShowProduct";
+import EditProduct from "../components/Product/EditProduct";
 
 
 Vue.use(Router)
@@ -11,13 +13,18 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'ProductsTable',
-      component: ProductsTable
+      name: 'Mainpage',
+      component: MainPage
     },
     {
-      path: '/circle',
-      name: 'Circle',
-      component: circle
+      path: '/show',
+      name: 'ShowPage',
+      component: ShowProduct
+    },
+    {
+      path: '/edit',
+      name: 'EditProduct',
+      component: EditProduct
     },
   ]
 })

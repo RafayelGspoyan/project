@@ -19,7 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eae48aec-4566-4ee4-b555-faca36e652fe" name="Default Changelist" comment="" />
+    <list default="true" id="eae48aec-4566-4ee4-b555-faca36e652fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project-frontend/src/components/Product/MainPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-frontend/src/components/Product/ProductForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-frontend/src/components/Product/ShowProduct.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-backend.loc/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-backend.loc/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-backend.loc/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/project-backend.loc/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-backend.loc/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/project-backend.loc/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-frontend/config/dev.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-frontend/config/dev.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-frontend/config/prod.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-frontend/config/prod.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-frontend/src/components/Product/ProductsTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project-frontend/src/components/Product/ProductsTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-frontend/src/components/test/circle.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-frontend/src/components/test/test.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project-frontend/src/components/Product/EditProduct.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-frontend/src/router/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +52,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/project-frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -156,8 +171,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\project\project-backend.loc" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="31" BundledDictionary0="@types.dic" BundledDictionary1="lodash.dic" BundledDictionary2="eslint-config-airbnb.dic" BundledDictionary3="jetbrains.dic" BundledDictionary4="firebase.dic" BundledDictionary5="english.dic" BundledDictionary6="vuex.dic" BundledDictionary7="twig.dic" BundledDictionary8="eslint.dic" BundledDictionary9="redux.dic" BundledDictionary10="less.dic" BundledDictionary11="core-js.dic" BundledDictionary12="express.dic" BundledDictionary13="prettier.dic" BundledDictionary14="angular.dic" BundledDictionary15="rxjs.dic" BundledDictionary16="vuetify.dic" BundledDictionary17="css.dic" BundledDictionary18="request.dic" BundledDictionary19="zone.js.dic" BundledDictionary20="@angular.dic" BundledDictionary21="async.dic" BundledDictionary22="bluebird.dic" BundledDictionary23="_javascript.dic" BundledDictionary24="cloudfront.dic" BundledDictionary25="graphql.dic" BundledDictionary26="javascript.dic" BundledDictionary27="heroku.dic" BundledDictionary28="vue.dic" BundledDictionary29="php.dic" BundledDictionary30="debug.dic" RuntimeDictionaries="1" RuntimeDictionary0="Extended Dictionary" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -171,6 +194,13 @@
       <workItem from="1601106719603" duration="2436000" />
       <workItem from="1601109277217" duration="570000" />
       <workItem from="1601109910817" duration="601000" />
+      <workItem from="1601133881944" duration="4132000" />
+      <workItem from="1601218066249" duration="4310000" />
+      <workItem from="1601225788372" duration="2479000" />
+      <workItem from="1601624085001" duration="311000" />
+      <workItem from="1601908090883" duration="2950000" />
+      <workItem from="1602496623057" duration="70000" />
+      <workItem from="1602496706493" duration="10997000" />
     </task>
     <servers />
   </component>
@@ -188,5 +218,27 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602496686091">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602496686091" />
+    <state x="680" y="227" key="NewPhpClassDialog" timestamp="1601908549132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="680" y="227" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601908549132" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1602496687506">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602496687506" />
+    <state x="668" y="95" width="585" height="849" key="find.popup" timestamp="1601135694195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="95" width="585" height="849" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601135694195" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1602520271808">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602520271808" />
   </component>
 </project>

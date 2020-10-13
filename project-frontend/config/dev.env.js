@@ -4,5 +4,5 @@ const prodEnv = require('./prod.env')
 
 module.exports = merge(prodEnv, {
   NODE_ENV: '"development"',
-  API_URL: '"http://project-backend.loc/api"'
+  API_URL: '"http://api-vue.loc/api"'
 })

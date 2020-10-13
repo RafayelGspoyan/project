@@ -43,3 +43,8 @@ Route::post("/user",function (Request $request){
         ]
     ]) ;
 });
+
+//
+Route::get("/product","ProductController@index")->name("products");
+Route::get("/product/show/{id}","ProductController@show")->name("products.show");
+Route::get("/product/delete/{id}","ProductController@delete")->name("products.delete");
